@@ -20,11 +20,14 @@ Requires youtube-dl. You can download install following the instructions at the 
 1. Using your terminal,`cd` into the folder you downloaded the repository
 2. Copy the following into the terminal
 
-       python install.py
+       python3 install.py
 
 # USAGE
 Open the playlist audio downloader by going into the folder where it is at and typing into the terminal:
 
        python youtubedl.py
+or
+
+       python3 youtubedl.py
 Paste the link to your playlist.
 Next you can give it the name of the folder where to put the songs. If the folder doesn't exists, it will create a folder with the name given. *Please note that you cannot use spaces, so instead of writing 'playlist name', write 'playlist_name' instead*.
