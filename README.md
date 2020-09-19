@@ -31,3 +31,9 @@ or
        python3 youtubedl.py
 Paste the link to your playlist.
 Next you can give it the name of the folder where to put the songs. If the folder doesn't exists, it will create a folder with the name given. *Please note that you cannot use spaces, so instead of writing 'playlist name', write 'playlist_name' instead*.
+For Linux users: if you get the error:
+
+       /usr/bin/env: 'python': No such file or directory
+Copy the following command into your terminal:
+
+       sudo ln -s /usr/bin/python3 /usr/bin/python
