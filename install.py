@@ -1,8 +1,9 @@
 import os
 import sys
 
-print("OS Detected: ", sys.platform, "\n")
-if (sys.platform == "linux"):
+text = "OS Detected: " + sys.platform + "\n"
+sys.stdout.write(text)
+if (sys.platform == 'linux' or sys.platform == 'linux2'):
     os.system("sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl")
     os.system("sudo chmod a+rx /usr/local/bin/youtube-dl")
 elif (sys.platform == 'darwin'):
